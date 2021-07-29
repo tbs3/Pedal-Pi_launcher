@@ -290,9 +290,9 @@ def main():
                     launchPedal = False
     except KeyboardInterrupt:
 
-        print 'Program ended by user request'
+        print('Program ended by user request')
     except Exception, ex:
-        print 'Program ended with error: %s' % ex.message
+        print ('Program ended with error: %s') % ex.message)
     finally:
         GPIO.cleanup()
 
