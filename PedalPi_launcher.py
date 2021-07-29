@@ -138,9 +138,9 @@ def BtnSelect(whichButton):
 
     curr_active = not curr_active  # button was pressed so toggle the variable to activate/deactivate it
     if curr_active == True:
-        print 'activate pedal'
+        print('activate pedal')
     else:
-        print 'deactivate pedal'
+        print ('deactivate pedal')
 
     launchPedal = True  # notification to the main loop that we are changing the pedal state
 
