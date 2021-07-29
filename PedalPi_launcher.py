@@ -291,7 +291,7 @@ def main():
     except KeyboardInterrupt:
 
         print('Program ended by user request')
-    except Exception, ex:
+    except Exception as ex:
         print ('Program ended with error: %s') % ex.message)
     finally:
         GPIO.cleanup()
