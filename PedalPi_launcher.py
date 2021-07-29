@@ -195,7 +195,7 @@ def main():
                         Image_cnt = numPedals + Image_cnt  # wraparound
                     if Image_cnt >= numPedals:
                         Image_cnt = Image_cnt - numPedals
-                    print NewCounter, Image_cnt  # some test print........
+                    print(NewCounter, Image_cnt)  # some test print........
                     if Image_cnt < 0 or Image_cnt > numPedals:  # sometimes things get confused if you spin the knob fast.  reset to 0 image
                         Image_cnt = 0
                     image = \
